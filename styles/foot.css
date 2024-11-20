@@ -1,0 +1,16 @@
+.promotion-links {
+    background-color: rgb(78, 78, 78);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.promotion-links a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    position:relative;
+    text-decoration: none;
+    padding: 10px 43px;
+    border: 1.5px solid rgb(201, 201, 201);
+}
