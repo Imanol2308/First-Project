@@ -1,0 +1,15 @@
+.button {
+    background-color: #535352;
+    color: #d4d3d3e0;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 15px 20px;
+    border: 1px solid #535352;
+    border-bottom: 7px solid #a1a1a1;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+.button i{
+    color: rgb(7, 201, 33);
+}
