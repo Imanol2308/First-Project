@@ -1,0 +1,63 @@
+.head-nav{
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat";
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.5fr 2fr;
+}
+.logo img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+}
+.head-nav > .head-nav-menu{
+    display: flexbox;
+    font-size: 0.5rem;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.head-nav > .head-nav-menu h1{
+    color:darkgoldenrod
+}
+.head-nav > .head-nav-menu > .nav-link-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 800;
+    margin-top: -7px;
+}
+.head-nav > .head-nav-menu > .nav-link-menu a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    position:relative;
+    text-decoration: none;
+}
+.head-nav > .head-nav-menu-plus{
+    font-size: 1rem;
+    margin-top: 43px;
+    margin-left: -30px;
+}
+.head-nav > .head-nav-menu-plus a{
+    color: rgb(161, 157, 157);
+    font-size: 1rem;
+    font-weight:bold;
+    position:relative;
+    text-decoration: none;
+}
+.head-nav > .head-nav-log{
+    display: grid;
+    grid-template-columns: 1.5fr 0.7fr 1fr 1.2fr;
+    align-items: center;
+    font-weight: 800;
+    margin-left: 75px;
+    margin-right: 25px;
+}
+.head-nav > .head-nav-log a{
+    color: rgb(192, 190, 190);
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
