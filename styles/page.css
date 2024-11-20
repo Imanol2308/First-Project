@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#emoji-hand{
+    transform: rotate(45deg) perspective(0);
+}
+.spacerv10 {
+    width: 10px;
+    height: 100%;
+}
+.spacerh60 {
+    height: 60px;
+    width: 100%;
+}
+.boldcaps {
+    font-variant-caps: all-small-caps;
+    font-weight: bolder;
+    font-size: 2rem;
+}
