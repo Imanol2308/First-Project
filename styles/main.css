@@ -1,0 +1,57 @@
+.main-section {
+    background: linear-gradient(60deg, rgb(117, 117, 117), rgb(0, 0, 0));
+    display: flex;
+    flex: auto;
+
+}
+.main-section > .promotion-text {
+    padding: 40px 40px;
+    color: beige;
+}
+.main-section > .promotion-text h1{
+    font-size:1.8rem;
+    font-weight: normal;
+}
+.main-section > .promotion-text h2{
+    font-size:1.5rem;
+    font-weight: normal;
+    line-height: 2.3rem;
+} 
+.main-section > .promotion-text > .buttons-promo {
+
+}
+.main-section > .promotion-text > .buttons-promo > .button-green {
+    color: rgb(2, 36, 17);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(67, 255, 67);
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 5px;
+}
+.main-section > .promotion-text > .buttons-promo > .button-black {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.main-section > .promotion-img {
+    padding-top: 35px;
+}
+
+.main-section > .promotion-img p{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.main-section > .promotion-img img{
+    width: 575px;
+    height: 80%;
+    margin-top: -12px;
+}
